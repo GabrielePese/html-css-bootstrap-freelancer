@@ -1,6 +1,6 @@
 [class*="col-"]{
   /* border: 1px solid black; */
-  height: 50px;
+  /* height: 50px; */
 }
 
 header{
@@ -25,7 +25,6 @@ header .navbar-default .navbar-brand{
 /* ZONA VERDE */
 #zonaverde{
   background-color: #1abc9c;
-  height: 300px;
   text-align: center;
 
 }
@@ -48,18 +47,31 @@ header .navbar-default .navbar-brand{
 
 #portfolio{
   background-color: white;
-  height: 300px;
+  height: auto;
   text-align: center;
 }
+#portfolio .linea{
+  height: 50px;
+}
 
+#portfolio .barra{
+  border: 1px solid black;
+  height: 1px;
+  width: 75px;
+  display: inline-block;
+  line-height: 50px;
+}
 #portfolio h2{
   padding-top: 15px;
   margin-bottom: 20px;
 }
 
 #portfolio img{
-  height: 150px;
-  width: auto;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  display: block;
+
 
 }
 
@@ -68,11 +80,10 @@ header .navbar-default .navbar-brand{
   background-color: #1abc9c;
   text-align: center;
   color: white;
-  height: 800px;
 }
-#about [class*="col-"]{
-  margin-top: 100px;
-
+#about .txt{
+  margin-bottom: 20px;
+}
 #about h2 {
   color:white;
 }
@@ -80,5 +91,79 @@ header .navbar-default .navbar-brand{
   padding: 10px;
   border: 1px solid white;
   border-radius:5px;
-  margin-top: 200px;
+}
+
+#about .linea{
+  height: 50px;
+}
+
+#about .barra{
+  border: 1px solid white;
+  height: 1px;
+  width: 75px;
+  display: inline-block;
+  line-height: 50px;
+}
+
+#about .dl{
+  margin: 30px;
+}
+
+/* CONTACT */
+
+#contact{
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+#contact h2{
+  color: black;
+}
+
+#contact .linea{
+  height: 50px;
+}
+
+#contact .fa-star{
+  color: black;
+}
+
+#contact .barra{
+  border: 1px solid black;
+  height: 1px;
+  width: 75px;
+  display: inline-block;
+  line-height: 50px;
+}
+#contact .form-control{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  webkit-box-shadow: none;
+  box-shadow: none;
+}
+#contact button{
+  padding: 10px;
+  background-color: #1abc9c;
+  color: white;
+  border:none;
+  float:left;
+}
+
+footer{
+  background-color: #2c3e50;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+footer h6{
+  margin-top: 25px;
+}
+
+footer .fab{
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
 }
