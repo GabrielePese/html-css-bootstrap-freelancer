@@ -84,19 +84,33 @@ header .navbar-default .navbar-brand{
 #portfolio img{
   height: auto;
   width: 100%;
-  margin-bottom: 20px;
-  display: block;
-  border-radius: 10px;
+
 
 }
-
+#portfolio .prova{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin:10px;
+}
 #portfolio .verdepiu{
-  background-color: #1abc9c;
+  background-color:rgba(26, 188, 156, 0.9);
   z-index: 999;
   display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+}
+#portfolio .verdepiu h5{
+  color:white;
+  margin-top: 85px;
+  font-size: 50px;
 }
 
-#portfolio img:hover .verdepiu{
+#portfolio .prova:hover .verdepiu{
   display: block;
 }
 
